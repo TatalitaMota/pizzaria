@@ -57,6 +57,10 @@ h1{
     padding-top: 22%;
 }
 #apresentacao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 60px;
     width: 90%;
     max-width: 1500px;
     min-width: 320px;
@@ -99,4 +103,17 @@ p{
     text-decoration: none;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+h2{
+   text-align: center;
+   margin-top: 60px;
+   font-size: 35px;
+   text-shadow: 2px 2px #666
+}
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(0 0 0 0.2)
+    font-weight: 600;
+    font-size: 12px;
 }
